@@ -1,0 +1,39 @@
+.indent {
+    min-height: 415px;
+}
+.converterWrapper {
+    display: grid;
+    justify-items: center;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
+.inputField, .convertButton, .selectField {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 15px 5px 5px 5px;
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+    width: 120px;
+}
+.inputField:focus {
+    outline: #e6d1ff 5px outset;
+}
+.convertButton:hover {
+    outline: #e6d1ff 5px outset;
+}
+.errorsField {
+    height: 20px;
+    display: grid;
+    justify-items: center;
+}
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 20px;
+}

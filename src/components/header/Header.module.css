@@ -1,0 +1,52 @@
+.header {
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    display: grid;
+    justify-items: center;
+}
+.name {
+    font-weight: bold;
+    font-family: Arial, serif;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.info {
+    margin: 3px;
+}
+
+@keyframes colors {
+    0% {
+        color: #ff6666;
+    }
+    10% {
+        color: #ff80c4;
+    }
+    20% {
+        color: #5cbed7;
+    }
+    30% {
+        color: #b671fc;
+    }
+    40% {
+        color: #c9559e;
+    }
+    50% {
+        color: #66cb66;
+    }
+    60% {
+        color: #a8e144;
+    }
+    70% {
+        color: #dcdc3a;
+    }
+    80% {
+        color: #ff80ff;
+    }
+    90% {
+        color: #d343d3;
+    }
+    100% {
+        color: #ff6666;
+    }
+}

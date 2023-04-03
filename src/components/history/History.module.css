@@ -1,0 +1,22 @@
+.indent {
+    min-height: 400px;
+}
+.tableWrapper {
+    overflow-x: auto;
+    margin-top: 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    white-space: nowrap;
+    padding: 5px;
+    text-align: center;
+}
+th {
+    background: rgba(0, 0, 0, 0.1);
+}
+tbody tr:nth-child(2n) {
+    background: rgba(0, 0, 0, 0.05);
+}

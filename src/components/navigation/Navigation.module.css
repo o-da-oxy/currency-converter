@@ -1,0 +1,15 @@
+.nav {
+    display: grid;
+    justify-items: center;
+}
+.navButton {
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: white;
+}
+.navButton:hover {
+    background: linear-gradient(#e6d1ff, white);
+}
