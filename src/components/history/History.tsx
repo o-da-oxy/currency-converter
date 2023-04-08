@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './History.module.css';
-import { useAppSelector } from '../reduxToolkit/typedHooks';
+import { useAppSelector } from '../../reduxToolkit/typedHooks';
 import { Column, useFilters, useTable } from 'react-table';
 import SelectColumnFilter from '../filtration/Filter';
 import Navigation from '../navigation/Navigation';

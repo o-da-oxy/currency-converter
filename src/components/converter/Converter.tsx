@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import Navigation from '../navigation/Navigation';
 import s from './Converter.module.css';
-import { useAppDispatch } from '../reduxToolkit/typedHooks';
-import { ActionType, convert } from '../reduxToolkit/converterSlice';
+import { useAppDispatch } from '../../reduxToolkit/typedHooks';
+import { ActionType, convert } from '../../reduxToolkit/converterSlice';
 
 interface IValuteOutputObj {
   name: string;

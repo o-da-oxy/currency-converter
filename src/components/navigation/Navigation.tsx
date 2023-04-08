@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import s from './Navigation.module.css';
-import { ButtonPropsType } from '../types/types';
+import { ButtonPropsType } from '../../types/types';
 
 function Navigation(props: ButtonPropsType) {
   const navigate = useNavigate();
