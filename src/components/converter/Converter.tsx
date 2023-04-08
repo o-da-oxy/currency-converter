@@ -45,7 +45,7 @@ function Converter() {
       .then((res) => {
         setResult(res);
       });
-  });
+  }, []);
 
   // array of {Name, Code, Value}
   const getValuteObjArray = (fetchedObj: Object) => {
